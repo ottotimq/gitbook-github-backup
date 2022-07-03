@@ -86,6 +86,12 @@ Then Carl decided to take profit and close channel, he got back 104 wrapped TONs
 _Δx = 104-100 = 4 & f(Δx) = 44 + returned U\&S (1100) = 1144_
 {% endhint %}
 
+S got back 996 wrapped TONs, and should burn _(Δx\*(10+1))+all returned wrapped TON from channel U+S_, after Carl exchange wrapped TON back to TON.
+
+{% hint style="success" %}
+_New TVL: 16 TONs, burned 1144 wrapped TONs, 11 wrapped TONs remaining in S Wallet balance, and total supply of wrapped TON: 176. 1:11 ratio keeped._
+{% endhint %}
+
 {% hint style="danger" %}
 _In case if Service haven't enough asset to burn, after unwrapping by user._&#x20;
 
@@ -101,12 +107,6 @@ _S shound burn f(Δx) + missing burn amount ( include until it disappear )_
 _S will burn 99 wrapped TONs_
 
 _<mark style="color:green;">TVL: 16 TONs. and total supply of wrapped TON: 176. 1:11 ratio keeped.</mark>_
-{% endhint %}
-
-S got back 996 wrapped TONs, and should burn _(Δx\*(10+1))+all returned wrapped TON from channel U+S_, after Carl exchange wrapped TON back to TON.
-
-{% hint style="success" %}
-_New TVL: 16 TONs, burned 1144 wrapped TONs, 11 wrapped TONs remaining in S Wallet balance, and total supply of wrapped TON: 176. 1:11 ratio keeped._
 {% endhint %}
 
 ## Basic code example
